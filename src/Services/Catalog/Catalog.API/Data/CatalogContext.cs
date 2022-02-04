@@ -15,6 +15,6 @@ namespace Catalog.API.Data
             CatalogContextSeed.SeedData(Products);
         }
 
-        public IMongoCollection<Product> Products { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+        public IMongoCollection<Product> Products { get; }
     }
 }
